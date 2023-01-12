@@ -1,0 +1,56 @@
+@media screen and (max-width: 900px) {
+    body {
+        overflow-x: hidden;
+    }
+    .logo {
+        padding: 0 60px;
+    }
+    .line1 {
+        width: 25px;
+    }
+    .line2 {
+        width: 18px;
+    }
+    .line3 {
+        width: 25px;
+    }
+    header ul li a:hover::before {
+      display: block;
+      opacity: 0;
+    }
+    header ul li a:hover::before {
+        opacity: 1;
+    }
+    .nav-links {
+      height: 0;
+      position: absolute;
+      justify-content: normal;
+      display: flex;
+      flex-direction: column;
+      top: 8vh;
+      left: 0;
+      right: 0;
+      width: 100vw;
+      background-color: #4e4376;
+      transition: 0.5s;
+      overflow: hidden;
+    }
+    .nav-active {
+      height: 92vh;
+      padding: 40px;
+    }
+    .nav-links ul {
+      text-align: center;
+      transform: 0.2s;
+      opacity: 0;
+    }
+     .nav-links li{
+        padding-top: 3vh;
+        opacity: 0;
+     }
+     .burger {
+        display: block;
+        cursor: pointer;
+        padding: 0 50px;
+     }
+}
