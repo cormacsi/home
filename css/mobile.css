@@ -31,7 +31,7 @@
       left: 0;
       right: 0;
       width: 100vw;
-      background-color: #4e4376;
+      background-color: var(--second-color);
       transition: 0.5s;
       overflow: hidden;
     }
@@ -53,4 +53,9 @@
         cursor: pointer;
         padding: 0 50px;
      }
+     #icon {
+      position: absolute;
+      right: 105px;
+      top: 22px;
+    }
 }
