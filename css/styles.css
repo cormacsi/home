@@ -27,7 +27,7 @@ header {
     justify-content: space-between;
     align-items: center;
     background-image: var(--third-color);
-    box-shadow: 0 25px 25px rgba(0,0,0,0.1);
+    /* box-shadow: 0 25px 25px rgb(255, 255, 255); */
 }
 .logo {
     text-transform: uppercase;
@@ -89,6 +89,12 @@ header ul li a::before {
     width: 100%;
     background-image: var(--first-color);
 }
+.homepage {
+    padding-top: 5vh;
+    /* background-color: #182848; */
+    height: 100%;
+    width: 100%;
+}
 /*
 .homepage {
     background-size: cover;
@@ -107,6 +113,12 @@ header ul li a::before {
     justify-content: center;
     position: relative;
 } */
+.typing {
+    padding-top: 10vh;
+}
+span {
+    color: rgb(244, 244, 101);
+}
 @media screen and (max-width: 1200px) {
     .logo {
         padding: 0 80px;
@@ -130,8 +142,9 @@ header ul li a::before {
     }
     #icon {
         position: absolute;
-        right: 40px;
-        top: 22px;
+        right: 25px;
+        top: 4vh;
+        transform: translate(-50%, -50%);
       }
 }
 @keyframes navLinkFade{

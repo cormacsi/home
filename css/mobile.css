@@ -55,7 +55,8 @@
      }
      #icon {
       position: absolute;
-      right: 105px;
-      top: 22px;
+      right: 100px;
+      top: 4vh;
+      transform: translate(-50%, -50%);
     }
 }
